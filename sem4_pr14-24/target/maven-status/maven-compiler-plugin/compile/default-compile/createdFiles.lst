@@ -1,0 +1,14 @@
+com\kreuzfeuer\java_mirea\pract10\pract14\controller\BaseController.class
+com\kreuzfeuer\java_mirea\pract10\pract12\SpringCLI.class
+com\kreuzfeuer\java_mirea\pract10\pract12\WorkBean.class
+com\kreuzfeuer\java_mirea\pract10\pract13\Student.class
+com\kreuzfeuer\java_mirea\pract10\pract14\repository\ManufactureRepository.class
+com\kreuzfeuer\java_mirea\pract10\pract14\repository\PhoneRepository.class
+com\kreuzfeuer\java_mirea\pract10\pract10\Pract10Application.class
+com\kreuzfeuer\java_mirea\pract10\pract14\entity\Phone.class
+com\kreuzfeuer\java_mirea\pract10\pract14\Pract14Application.class
+META-INF\spring-configuration-metadata.json
+com\kreuzfeuer\java_mirea\pract10\pract14\entity\Manufacture.class
+com\kreuzfeuer\java_mirea\pract10\pract14\controller\PhoneController.class
+com\kreuzfeuer\java_mirea\pract10\pract13\Pract13Applization.class
+com\kreuzfeuer\java_mirea\pract10\pract14\controller\ManufactureController.class

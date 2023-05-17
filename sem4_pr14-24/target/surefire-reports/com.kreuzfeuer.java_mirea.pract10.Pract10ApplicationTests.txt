@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.kreuzfeuer.java_mirea.pract10.Pract10ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.255 s <<< FAILURE! - in com.kreuzfeuer.java_mirea.pract10.Pract10ApplicationTests
+com.kreuzfeuer.java_mirea.pract10.Pract10ApplicationTests  Time elapsed: 0.254 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
