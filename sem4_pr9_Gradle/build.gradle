@@ -1,0 +1,41 @@
+plugins {
+   id 'java'
+}
+
+sourceSets {
+   main {
+      java {
+         srcDir 'src'
+      }
+   }
+}
+
+jar {
+	 archiveBaseName = 'test'
+   destinationDirectory = file("jars")
+   manifest {
+      attributes 'Main-Class': 'App'
+   }
+}
+
+task exec {
+   dependsOn "jar"
+   doLast {
+      exec {
+         commandLine 'docker', 'build', '-t', 'myimage', './jars'
+      }
+      exec {
+         commandLine 'docker', 'run', '-p', '80:80', '--name', 'mycont', 'myimage'
+      }
+
+      delete 'build'
+
+      exec {
+         commandLine 'docker', 'rm', 'mycont'
+      }
+      exec {
+         commandLine 'docker', 'rmi', 'myimage'
+      }
+   }
+}
+
